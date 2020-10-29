@@ -1,11 +1,19 @@
 *{
 	box-sizing: border-box;
+	font-size: 12px;
 }
 @font-face {
 	src: url(../fonts/NewPeninimMT-Bold-04.ttf);
 	font-family: peninim;
-    font-weight: normal;
-    font-style: bold;
+  font-weight: normal;
+  font-style: bold;
+}
+
+@font-face {
+	src: url(../fonts/david.ttf);
+	font-family: david;
+  font-weight: normal;
+  font-style: bold;
 }
 
 body{
@@ -55,6 +63,7 @@ button{
 	text-align: center;
 	transition: all .17s;
 	cursor: pointer;
+	mar
 }
 
 button:focus, button:hover{
@@ -76,11 +85,13 @@ button:focus, button:hover{
 
 .upperleft{
 	width: 70%;
+	height: 100%;
 }
 
 .upperright{
 	width: 30%;
 	float: right;
+	height: 100%;
 }
 
 /*bottom button group*/
@@ -90,7 +101,7 @@ button:focus, button:hover{
 	padding: 4px 0px;
 	float: right;
 	width: 20%;
-	font-size: 12.5px;
+	font-size: 12px;
 	font-family: david;
 }
 
