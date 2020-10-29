@@ -63,7 +63,7 @@ button{
 	text-align: center;
 	transition: all .17s;
 	cursor: pointer;
-	mar
+
 }
 
 button:focus, button:hover{
@@ -84,12 +84,12 @@ button:focus, button:hover{
 }
 
 .upperleft{
-	width: 70%;
+	width: 72%;
 	height: 100%;
 }
 
 .upperright{
-	width: 30%;
+	width: 29%;
 	float: right;
 	height: 100%;
 }
@@ -99,6 +99,7 @@ button:focus, button:hover{
 	color: white;
 	background-color: black;
 	padding: 4px 0px;
+	margin: 0;
 	float: right;
 	width: 20%;
 	font-size: 12px;
