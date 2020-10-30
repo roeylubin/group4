@@ -92,6 +92,10 @@ button:focus, button:hover{
 	width: 29%;
 	float: right;
 	height: 100%;
+	background-color: #CECE99;
+	color: black;
+
+
 }
 
 /*bottom button group*/
