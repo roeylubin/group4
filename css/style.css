@@ -57,46 +57,87 @@ img{
 }
 
 
-/*upper button*/
-button{
-	background-color: #CECE99;
-	text-align: center;
-	transition: all .17s;
-	cursor: pointer;
 
+.flexbox-container{
+	display: flex;	
 }
 
-button:focus, button:hover{
+.dropbtn{
+	width: 210px;
 	background-color: #CECE99;
 	color: black;
+	font-family: 'peninim';
+	font-size: 15px;
+	padding: 3px 0;
+	cursor: pointer;
+}
+
+.dropdown{
+	position: relative;
+	display: inline-block;
 }
 
 
-/*top buttons*/
-.upperright, .upperleft{
+.dropdown-content{
+	display: none;
+	position: absolute;
 	background-color: #A7A774;
 	color: white;
+	/*just width?*/
+	min-width: 210px;
+	z-index: 1;
 	font-family: peninim;
-	padding: 3px 30px 3px 35px;
-	margin-left: -5px;
+}
+
+.dropdown-content:hover a{
+	display: block;
+}
+
+.dropdown-content a{
+	color: white;
+	padding: 3px 12px;
+	text-decoration: none;
+	display: block;
 	font-size: 15px;
+	text-align: center;
+	border-top: 2px solid #767676;
+	border-right: 2px solid #212121;
+	border-bottom: 2px solid #212121;
+	border-left: 2px solid #767676;
+}
+
+.dropdown-content a:hover{
+	background-color: #CECE99;
+	color: black;
+}
+
+.dropdown:hover .dropdown-content{
+	display: block;
+}
+
+
+
+.movie-info{
+	display: inline-block;
+	width: 510px;
+	background-color: #A7A774;
+	color: white;
+	font-family: 'peninim';
+	font-size: 15px;
+	padding: 3px 0;
+	color: white;
 	cursor: pointer;
 }
 
-.upperleft{
-	width: 72%;
-	height: 100%;
-}
-
-.upperright{
-	width: 29%;
-	float: right;
-	height: 100%;
+.movie-info:hover{
 	background-color: #CECE99;
 	color: black;
-
-
 }
+
+.dropdown + .movie-info:hover{
+	background-color: red;
+}
+
 
 /*bottom button group*/
 .btn-group  button{
@@ -126,10 +167,13 @@ button:focus, button:hover{
 
 /*youtube embed style*/
 .video-container{
+  display: flex;
   height:44vh;
   overflow:hidden;
   position:relative;
   border: 2px solid #212121;
+  margin: 12px 0 0 0;
+
 }
 .video-container iframe,{
   position: absolute;
