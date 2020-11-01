@@ -40,11 +40,12 @@ h1{
 	text-align: center;
 	font-size: 44px;
 	padding: 35px;
+	margin: 20px auto;
 }
 
 img{
 	width: 600px;
-	display: block;
+	display: none;
 	margin: 0 auto;
 
 }
@@ -190,9 +191,10 @@ img{
 }
 
 .links{
-	margin: 100px;
+	margin: 110px 0px 30px;
 	text-align: center;
 	width: initial;
 	font-size: initial;
 	font-size: 14px;
+	text-decoration: underline;
 }
