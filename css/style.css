@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box;
 	font-size: 12px;
+	width: 100%;
 }
 @font-face {
 	src: url(../fonts/NewPeninimMT-Bold-04.ttf);
@@ -60,21 +61,23 @@ img{
 
 .flexbox-container{
 	display: flex;	
+	width: 100%;
 }
 
 .dropbtn{
-	width: 210px;
 	background-color: #CECE99;
 	color: black;
 	font-family: 'peninim';
 	font-size: 15px;
 	padding: 3px 0;
 	cursor: pointer;
+	width: 100%;
 }
 
 .dropdown{
 	position: relative;
 	display: inline-block;
+	width: 40%;
 }
 
 
@@ -84,7 +87,6 @@ img{
 	background-color: #A7A774;
 	color: white;
 	/*just width?*/
-	min-width: 210px;
 	z-index: 1;
 	font-family: peninim;
 }
@@ -104,22 +106,21 @@ img{
 	border-right: 2px solid #212121;
 	border-bottom: 2px solid #212121;
 	border-left: 2px solid #767676;
+	width: 100%;
 }
 
 .dropdown-content a:hover{
 	background-color: #CECE99;
 	color: black;
+	width: 100%;
 }
 
 .dropdown:hover .dropdown-content{
 	display: block;
 }
 
-
-
 .movie-info{
 	display: inline-block;
-	width: 510px;
 	background-color: #A7A774;
 	color: white;
 	font-family: 'peninim';
@@ -127,15 +128,12 @@ img{
 	padding: 3px 0;
 	color: white;
 	cursor: pointer;
+	float: left;
 }
 
 .movie-info:hover{
 	background-color: #CECE99;
 	color: black;
-}
-
-.dropdown + .movie-info:hover{
-	background-color: red;
 }
 
 
