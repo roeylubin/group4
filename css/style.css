@@ -1,6 +1,5 @@
 *{
 	box-sizing: border-box;
-	font-size: 12px;
 	width: 100%;
 }
 @font-face {
@@ -149,8 +148,6 @@ img{
 	font-family: david;
 }
 
-
-
 .btn-group button:hover{
 	background-color: #282922;
 
@@ -159,9 +156,6 @@ img{
 .btn-group button:focus{
 	background-color: #4A4949;
 }
-
-
-
 
 /*youtube embed style*/
 .video-container{
@@ -195,4 +189,10 @@ img{
   pointer-events:none;
 }
 
-
+.links{
+	margin: 100px;
+	text-align: center;
+	width: initial;
+	font-size: initial;
+	font-size: 14px;
+}
