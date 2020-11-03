@@ -33,6 +33,15 @@ p{
 	margin: 0;
 }
 
+.mycredit{
+	color: #A9AAAB;
+	font-size: 12px;
+	display: block;
+	text-align: left;
+	margin: -10px 0 30px 0px;
+	text-decoration: none;
+}
+
 h1{
 	font-family: peninim;
 	font-weight: normal;
